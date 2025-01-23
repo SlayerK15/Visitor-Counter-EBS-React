@@ -23,4 +23,4 @@ jobs:
           version_label: visitor-counter-${{ github.sha }}
           region: ap-south-1
           deployment_package: deploy.zip
-          wait_for_environment_recovery: 600
+          wait_for_environment_recovery: 300
